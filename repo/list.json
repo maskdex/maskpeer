@@ -1,7 +1,7 @@
 {
-	"repo": {
-	"isMaster": true,
-		"master": "https://maskpeer.herokuapp.com/",
-		"slaves": []
-	}
+  "repo": {
+  "isMaster": true,
+    "master": "https://maskpeer.herokuapp.com/",
+    "slaves": []
+  }
 }
