@@ -4,10 +4,10 @@
 	"description": "MaskDex Rendezvous P2P Server",
 	"main": "src/index.js",
 	"bin": {
-		"start": "src/bin.js",
+		"start": "src/bin.js"
 	},
 	"scripts": {
-		"start": "node src/bin.js",
+		"start": "node src/bin.js"
 	},
 	"engines": {
 		"node": "10.x"
