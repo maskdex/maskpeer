@@ -1,0 +1,23 @@
+{
+	"name": "@maskdex/maskpeer",
+	"version": "0.0.1",
+	"description": "MaskDex Rendezvous P2P Server",
+	"main": "./src/index.js",
+	"scripts": {
+		"start": "rendezvous --port=9090 --host=0.0.0.0"
+	},
+	"engines": {
+		"node": "10.x"
+	},
+	"keywords": [
+		"maskpeer",
+		"maskdb",
+		"maskdex"
+	],
+	"author": "MaskAnonymous",
+	"license": "MIT",
+	"dependencies": {
+		"libp2p-websocket-star-rendezvous": "^0.3.0"
+	},
+	"devDependencies": {}
+}
