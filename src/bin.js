@@ -10,7 +10,7 @@ let server
 /* eslint-disable no-console */
 
 signalling.start({
-  port: argv.port || argv.p || process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 9090,
+  port: argv.port || argv.p || process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080,
   host: argv.host || argv.h || process.env.OPENSHIFT_NODEJS_IP || process.env.HOST || '0.0.0.0',
   cryptoChallenge: !(argv.disableCryptoChallenge || process.env.DISABLE_CRYPTO_CHALLENGE),
   strictMultiaddr: !(argv.disableStrictMultiaddr || process.env.DISABLE_STRICT_MULTIADDR),
