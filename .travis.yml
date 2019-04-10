@@ -1,0 +1,5 @@
+deploy:
+  provider: firebase
+  token:
+    secure: "1/9KFF3Non-vepBErVd0jyoXsMGnF53gGcH1cWeDuNz1O2ilEvPDP93Y_nrzk9_B1C"
+  project: "maskpeer"
