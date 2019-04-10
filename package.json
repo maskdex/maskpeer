@@ -4,7 +4,7 @@
 	"description": "MaskDex Rendezvous P2P Server",
 	"main": "./src/index.js",
 	"scripts": {
-		"start": "rendezvous --host=0.0.0.0"
+		"start": "bin/start"
 	},
 	"engines": {
 		"node": "10.x"
@@ -17,7 +17,8 @@
 	"author": "MaskAnonymous",
 	"license": "MIT",
 	"dependencies": {
-		"libp2p-websocket-star-rendezvous": "^0.3.0"
+		"libp2p-websocket-star-rendezvous": "^0.3.0",
+		"minimist": "^1.2.0"
 	},
-	"devDependencies": { }
+	"devDependencies": {}
 }
