@@ -19,5 +19,5 @@
 	"dependencies": {
 		"libp2p-websocket-star-rendezvous": "^0.3.0"
 	},
-	"devDependencies": {}
+	"devDependencies": { }
 }
